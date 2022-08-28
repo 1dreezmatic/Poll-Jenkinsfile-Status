@@ -10,3 +10,5 @@ Let's say you adopted Github as your Origin of choice and you would love to keep
 ## How?
 
 Trigger the Jenkins Job, poll the Jenkins API for that job status, and pass the Github pipeline only if the Jenkins pipeline completed with a status 0.
+
+NB: You could use jq instead of sed/awk.
